@@ -1,3 +1,85 @@
 body {
     background: coral;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    
+font-family: 'pacifico', cursive;
+    
+}
+
+h1 {
+    font-size: 4em;
+    
+}
+
+h2 {
+    font: 2em;
+}
+
+
+/*positioning*/
+header {
+    background: rgba(0, 128, 128, 0.56); 
+    position: fixed;
+    width: 100%;
+}
+
+
+/*layout*/
+
+.page-wrapper {
+    background: red;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#zen-intro {
+    background: blue;
+    
+}
+
+#zen-supporting {
+    background: green;
+}
+
+.sidebar {
+    background: yellow;
+
+    
+}
+
+/*Media Queries*/
+
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Mobile Size";
+  }
+/* end mobile */
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Tablet Size";
+  }
+/*End Teblet*/
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Desktop Size";
+  }
+/*End Desktop*/
+}
